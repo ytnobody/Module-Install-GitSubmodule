@@ -6,5 +6,8 @@ $ENV{LANG} = 'C';
 all_pod_files_spelling_ok('lib');
 __DATA__
 satoshi azuma
+submodule
+submodules
+versioning
 ytnobody at gmail dot com
 Module::Install::GitSubmodule

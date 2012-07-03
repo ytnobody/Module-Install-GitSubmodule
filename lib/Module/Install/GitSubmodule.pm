@@ -62,7 +62,7 @@ __END__
 
 =head1 NAME
 
-Module::Install::GitSubmodule - A Module::Install extention that resolves git submodule dependencies
+Module::Install::GitSubmodule - A Module::Install extension that resolves git submodule dependencies
 
 
 =head1 VERSION
@@ -102,7 +102,7 @@ L<http://twitter.com/ytnobody>.
   C<< <ytnobody at gmail dot com> >>
 
 
-=head1 LICENCE AND COPYRIGHT
+=head1 LICENSE AND COPYRIGHT
 
 Copyright (c) 2012, satoshi azuma C<< <ytnobody at gmail dot com> >>. All rights reserved.
 
@@ -124,7 +124,7 @@ NECESSARY SERVICING, REPAIR, OR CORRECTION.
 
 IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING
 WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR
-REDISTRIBUTE THE SOFTWARE AS PERMITTED BY THE ABOVE LICENCE, BE
+REDISTRIBUTE THE SOFTWARE AS PERMITTED BY THE ABOVE LICENSE, BE
 LIABLE TO YOU FOR DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL,
 OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE
 THE SOFTWARE (INCLUDING BUT NOT LIMITED TO LOSS OF DATA OR DATA BEING
