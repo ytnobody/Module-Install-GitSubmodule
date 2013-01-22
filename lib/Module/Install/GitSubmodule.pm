@@ -11,6 +11,7 @@ use Git::Class::Worktree;
 use Guard;
 
 our $VERSION = 0.01;
+our $CPANM;
 
 sub install_git_submodule {
     my $self = shift;
@@ -45,6 +46,7 @@ sub install_git_submodule {
 }
 
 sub search_cpanm {
+    return $CPANM if $CPANM;
     my @search_path = qw( installbin );
     my $cpanm = `/usr/bin/which cpanm`;
     $cpanm =~ s/\n//;
