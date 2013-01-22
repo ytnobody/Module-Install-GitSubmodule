@@ -10,7 +10,7 @@ use File::Spec;
 use Git::Class::Worktree;
 use Guard;
 
-$VERSION = 0.01;
+our $VERSION = 0.01;
 
 sub install_git_submodule {
     my $self = shift;
