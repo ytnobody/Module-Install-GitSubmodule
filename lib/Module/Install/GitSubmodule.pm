@@ -9,6 +9,7 @@ use Config;
 use File::Spec;
 use Git::Class::Worktree;
 use Guard;
+use File::Which 'which';
 
 our $VERSION = 0.01;
 our $CPANM;
@@ -48,8 +49,7 @@ sub install_git_submodule {
 sub search_cpanm {
     return $CPANM if $CPANM;
     my @search_path = qw( installbin );
-    my $cpanm = `/usr/bin/which cpanm`;
-    $cpanm =~ s/\n//;
+    my ($cpanm) = which('cpanm');
     return $cpanm if $cpanm;
     for my $key ( @search_path ) {
         $cpanm = File::Spec->catfile( $Config{$key}, 'cpanm' );
